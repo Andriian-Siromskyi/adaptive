@@ -1,0 +1,65 @@
+.education-projects {
+  width: 370px;
+  padding-top: 32px;
+  padding-bottom: 64px;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: #1a1a1a;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .education-projects {
+    width: 768px;
+    padding-top: 64px;
+    padding-bottom: 96px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .education-projects {
+    width: 1158px;
+    padding-top: 96px;
+    padding-bottom: 164px;
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+}
+
+.swiper-container {
+  width: 100%;
+  max-width: 175px;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  background-color: rgba(250, 250, 250, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  color: #fafafa;
+  border: 2px solid rgba(250, 250, 250, 0.2);
+  transition: background-color 0.3s;
+}
+.circle.active {
+  background-color: #ff4b4b;
+}
+.swiper-button-next {
+}
+.swiper-button-prev {
+}
